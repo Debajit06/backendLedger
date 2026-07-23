@@ -19,13 +19,8 @@ app.use(cookie());
 app.get("/", (req, res) => {
   res.status(200).json({
     status: "success",
-    message: "Backend Ledger API is live and operational 🚀",
-    endpoints: {
-      auth: "/api/auth",
-      account: "/api/account",
-      transaction: "/api/transaction",
-    },
-    documentation: "https://github.com/Debajit06/backendLedger",
+    message: "Backend Ledger API is live and operational",
+    
   });
 });
 
